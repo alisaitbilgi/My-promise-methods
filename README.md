@@ -1,2 +1,2 @@
-# My-promise-methods
-In this work, i've implemented my own promise.all() and promise.race() methods 
+# My-Promise-Methods
+In this work, i've implemented my own promise.all() and promise.race() methods in "myMethod.js" file. Also tested my async method implementations by using "jest" testing framework in "myMethod.test.js" file...
