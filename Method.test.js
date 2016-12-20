@@ -1,7 +1,7 @@
 "use strict";
 
 
-const MyPromise = require("./myMethod");
+const MyPromise = require("./Method");
 
 let testArrayForValueCheck = [];
 let promiseArrayFalsy = [];
