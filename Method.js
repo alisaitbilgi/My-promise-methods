@@ -3,8 +3,7 @@
 const MyPromise = {
   all: function (iterable) {
     if (!Array.isArray(iterable))
-      return Promise.resolve([]);
-
+      return Promise.resolve
 
     let isRejected = false;
     let resultArray = new Array(iterable.length);
@@ -19,7 +18,6 @@ const MyPromise = {
 
             resolvedCount += 1;
             resultArray[idx] = resultResolve;
-
             if (resolvedCount === iterable.length)
               res(resultArray);
           }, (dataComingFromReject) => {
@@ -56,4 +54,3 @@ const MyPromise = {
 };
 
 module.exports = MyPromise;
-
